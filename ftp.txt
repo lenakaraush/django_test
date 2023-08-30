@@ -1,0 +1,39 @@
+https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/development_environment
+
+активировать в нём виртуальное окружение
+workon django_environment
+
+http://127.0.0.1:8000/
+
+Как запустить сервер:
+в папке проекта C:\Python\django_test\mytestsite
+py manage.py runserver
+
+как остановить сервер: 
+в терминале нажать CTRL + C
+
+В командной строке: 
+исполнение кода питона - Python
+выход из консоли питона  - exit()
+
+
+Новый проект: 
+django-admin.exe startproject mysite .
+
+новое приложение в проекте (модуль - блог)
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+
+ http://127.0.0.1:8000/admin/
+
+ python manage.py createsuperuser
+
+
+
+https://tutorial.djangogirls.org/ru/django_installation/
+
+
+
+https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Admin_site
+
